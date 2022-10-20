@@ -400,7 +400,7 @@ The remainder of the lab procedure is written for JupyterLab, but you can modify
 
 A Jupyter notebook is a file (the notebook document) that displays or renders in a web browser. We'll be launching Jupyter Notebooks through Anaconda. The web application component of the notebook will be hosted on your local computer and the notebook document will save to a file directory on your local computer.
 
-<p align="center"><img src="https://github.com/kwaldenphd/python-authoring-environments/blob/main/images/JupyterLab_Launcher.png?raw=true" width="500"></p>
+<p align="center"><img src="https://github.com/kwaldenphd/python-authoring-environments/blob/main/images/JupyterLab_Navigation.png?raw=true" width="1000"></p>
 
 It may take some time for the notebook to open in a browser window. The notebook name is what the `.ipynb` file created via the Jupyter notebook will be saved as. Click on the default notebook name (usually `Untitled`) to rename the notebook.
 
