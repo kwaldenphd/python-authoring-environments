@@ -451,7 +451,7 @@ A few other useful keyboard shortcuts:
  </ul>
  You are welcome to use a program (or programs) you've written for previous labs- original code is not required for this question. The main point for this question is to see how a Jupyter Notebook code cell executes a program.</blockquote>
  
-### Installing packages in Jupyter notebooks
+## Installing packages in Jupyter notebooks
 
 In a previous lab, we mentioned how you can use modules, libraries, and packages to extend Python's functionality. That lab used the built-in `csv` and `json` modules. We did not need to install those modules since they are already included in Python. All we had to do was use an `import` statement to bring those modules into our Python program.
 
@@ -555,7 +555,7 @@ import matplotlib.pyplot
 import matplotlib.pyplot as plt
 ```
 
-### Export Options
+## Export Options
 
 <p align="center"><img src="https://github.com/kwaldenphd/python-authoring-environments/blob/main/images/JupyterLab_File_Dropdown.png?raw=true" width="500"></p>
 
