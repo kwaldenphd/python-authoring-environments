@@ -41,13 +41,11 @@ The author consulted the following texts when writing this tutorial:
 - [How to Submit This Lab (and Show Your Work)](#how-to-submit-this-lab-and-show-your-work)
 - [Lab Notebook Questions](#lab-notebook-questions)
 
+[Click here](https://colab.research.google.com/drive/1dQzM39wN1XrpJtFZcWTpGKPinR2mFIs4?usp=sharing) to access the lab procedure as a Jupyter Notebook (Google Colab, ND Users).
+
 # Lecture & Live Coding
 
-Throughout this lab, you will see a Panopto icon at the start of select sections.
-
-This icon indicates there is lecture/live coding asynchronous content that accompanies this section of the lab. 
-
-You can click the link in the figure caption to access these materials (ND users only).
+Throughout this lab, you will see a Panopto icon at the start of select sections. This icon indicates there is lecture/live coding asynchronous content that accompanies this section of the lab. You can click the link in the figure caption to access these materials (ND users only).
 
 Example:
 
@@ -74,9 +72,7 @@ Chromebook instructions:
 - Alex P. Miller, ["Data Science on a Chromebook: How to run Jupyter, Python, and R locally in ChromeOS"](https://alex.miller.im/posts/data-science-chromebook-pixelbook-jupyter-python-r/) *personal blog* (6 March 2019).
 - Noebrian, ["Installing Anaconda on a Chromebook"](https://chromebook.home.blog/2019/01/20/installing-anaconda-on-a-chromebook-no-dev-beta-or-crouton-needed/) *ChromeBooks* (20 January 2019).
 
-TABLE WITH SPYDER/JUPYTER LAB ICONS
-
-SCREENSHOT
+<p align="center"><img src="https://github.com/kwaldenphd/python-authoring-environments/blob/main/images/Anaconda_Navigator.png?raw=true" width="1000"></p>
 
 Once you are able to launch the Anaconda Navigator, click on the icons for the following two programs to install them:
 - Spyder
@@ -84,13 +80,9 @@ Once you are able to launch the Anaconda Navigator, click on the icons for the f
 
 # Lab Notebook Template
 
-[Click here]() to access the lab notebook template as a Jupyter Notebook (Google CoLab, ND Users).
+[Click here](https://colab.research.google.com/drive/13XsSSsqt3AmjLYKjdTn0pvQ1406anah3?usp=sharing) to access the lab notebook template as a Jupyter Notebook (Google CoLab, ND Users).
 
-SCREENSHOT
-
-To download the notebok from Google Colaboratory (as a `.ipynb` file): `File` (top-left corner) -> `Download` -> `Download as .ipynb`
-
-Once you have downloaded the file on your local computer, you can move it into a designated folder for this lab/class.
+To download the notebok from Google Colaboratory (as a `.ipynb` file): `File` (top-left corner) -> `Download` -> `Download as .ipynb`. Once you have downloaded the file on your local computer, you can move it into a designated folder for this lab/class.
 
 # Overview
 
@@ -137,7 +129,7 @@ Chromebook instructions:
 - Alex P. Miller, ["Data Science on a Chromebook: How to run Jupyter, Python, and R locally in ChromeOS"](https://alex.miller.im/posts/data-science-chromebook-pixelbook-jupyter-python-r/) *personal blog* (6 March 2019).
 - Noebrian, ["Installing Anaconda on a Chromebook"](https://chromebook.home.blog/2019/01/20/installing-anaconda-on-a-chromebook-no-dev-beta-or-crouton-needed/) *ChromeBooks* (20 January 2019).
 
-SCREENSHOT
+<p align="center"><img src="https://github.com/kwaldenphd/python-authoring-environments/blob/main/images/Anaconda_Navigator.png?raw=true" width="1000"></p>
 
 Once you are able to launch the Anaconda Navigator, click on the icons for the following two programs to install them:
 - Spyder
@@ -170,13 +162,11 @@ Spyder's core components include:
 
 These robust Python features in Spyder will be incredibly useful as we start to do more work with datasets, visualizations (plots), and debugging in more complex programming environments.
 
-<p align="center"><a href="https://github.com/kwaldenphd/python-spyder/blob/main/images/Figure_1.png?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/python-spyder/blob/main/images/Figure_1.png?raw=true" /></a></p>
-
-<p align="center"><a href="https://github.com/kwaldenphd/python-spyder/blob/main/images/Figure_2.png?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/python-spyder/blob/main/images/Figure_2.png?raw=true" /></a></p>
+<p align="center"><img src="https://github.com/kwaldenphd/python-authoring-environments/blob/main/images/Anaconda_Navigator.png?raw=true" width="1000"></p>
 
 Open the Anaconda navigator and select the option to launch Spyder.
 
-<p align="center"><a href="https://github.com/kwaldenphd/python-spyder/blob/main/images/Figure_2a.png?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/python-spyder/blob/main/images/Figure_2a.png?raw=true" /></a></p>
+<p align="center"><img src="https://github.com/kwaldenphd/python-authoring-environments/blob/main/images/Spyder_Navigation.png?raw=true" width="1000"></p>
 
 Spyder has three default panes that show up when you launch the program. Your `.py` file shows up on the left-hand side of the program window. This is where you will write Python code. You can have multiple `.py` files open in Spyder and navigate between the tabs. 
 
@@ -194,7 +184,7 @@ When we were working in Replit, all files that were part of our Python project w
 
 You can set a working directory, which is where Spyder will look for external files you are wanting to access from within a Python program. The working directory is also where Python will save `.py` files you build.
 
-<p align="center"><a href="https://github.com/kwaldenphd/python-spyder/blob/main/images/Figure_2c.png?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/python-spyder/blob/main/images/Figure_2c.png?raw=true" /></a></p>
+<p align="center"><img src="https://github.com/kwaldenphd/python-authoring-environments/blob/main/images/Spyder_Directory.png?raw=true" width="250"></p>
 
 Click on the folder icon in the top-right hand corner of Spyder (next to the arrow icon) to set a working directory. It doe--where you save `.py` files and other files (think data files) you might be wanting to access as part of a Python program. 
 
@@ -242,9 +232,9 @@ Running your program through this kind of debugging is immensely valuable for tr
 - Step out (lets you step out of a function if you used step in and want to 'step out' of the function)
 - Stop (stops debugging and terminates the program)
 
-<p align="center"><a href="https://github.com/kwaldenphd/python-spyder/blob/main/images/Figure_3.png?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/python-spyder/blob/main/images/Figure_3.png?raw=true" /></a></p>
+<p align="center"><img src="https://github.com/kwaldenphd/python-authoring-environments/blob/main/images/Spyder_Debugging_Menu.png?raw=true" width="250"></p>
 
-<p align="center"><a href="https://github.com/kwaldenphd/python-spyder/blob/main/images/Figure_4.png?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/python-spyder/blob/main/images/Figure_4.png?raw=true" /></a></p>
+<p align="center"><img src="https://github.com/kwaldenphd/python-authoring-environments/blob/main/images/Spyder_Debugging.png?raw=true" width="500"></p>
 
 Let's use this approach and Spyder functionality to debug a function program we wrote for a previous lab.
 
@@ -331,17 +321,13 @@ Think of the `logging` module as a report that generates alongside your program 
 
 "The Jupyter Notebook is a web-based interactive computing platform that allows users to author data- and code-driven narratives that combine live code, equations, narrative text, visualizations, interactive dashboards and other media." (Project Jupyter, [Jupyter Notebook](http://cameronoelsen.github.io/jupytersite/))
 
-COLAB GENERAL SCREENSHOT
+<p align="center"><img src="https://github.com/kwaldenphd/python-authoring-environments/blob/main/images/Google_Colab.png?raw=true" width="1000"></p>
 
 Navigate to [the following link](https://colab.research.google.com/drive/1vyAHwOf76_byT1CY8ofFwBg67h3Sljuh?usp=sharing#scrollTo=Thlyy-KwFmdR) in a web browser. You're looking at a Jupyter Notebook in the Google Colaboratory cloud-based IDE. And the content in this notebook may be familiar- it's the instructional materials from one of our previous labs.
 
-TABLE OF CONTENTS SCREENSHOT
+<p align="center"><img src="https://github.com/kwaldenphd/python-authoring-environments/blob/main/images/Colab_ToC.png?raw=true" width="500"></p>
 
-Scroll through the notebook, making use of the table of contents. 
-
-CODE CELL EXECUTE SCREENSHOT
-
-Run some of the code cells and see what happens. 
+Scroll through the notebook, making use of the table of contents. Run some of the code cells and see what happens. 
 
 As the definition provided above highlights, Jupyter Notebooks are an authoring environment that lets you bring together narrative text, code, and output, all in a single document. 
 
@@ -410,27 +396,21 @@ The remainder of the lab procedure is written for JupyterLab, but you can modify
  
 ## Launching & Navigating JupyterLab
 
-General navigation
-
-Directory structure / working directory (i.e. where files are located on your computer)
+<p align="center"><img src="https://github.com/kwaldenphd/python-authoring-environments/blob/main/images/Anaconda_Navigator.png?raw=true" width="1000"></p>
 
 A Jupyter notebook is a file (the notebook document) that displays or renders in a web browser. We'll be launching Jupyter Notebooks through Anaconda. The web application component of the notebook will be hosted on your local computer and the notebook document will save to a file directory on your local computer.
 
-SCREENSHOTS
+<p align="center"><img src="https://github.com/kwaldenphd/python-authoring-environments/blob/main/images/JupyterLab_Launcher.png?raw=true" width="500"></p>
 
-It may take some time for the notebook to open in a browser window. MAIN INTERFACE COMPONENTS/NAVIGATION
+It may take some time for the notebook to open in a browser window. The notebook name is what the `.ipynb` file created via the Jupyter notebook will be saved as. Click on the default notebook name (usually `Untitled`) to rename the notebook.
 
-The notebook name is what the `.ipynb` file created via the Jupyter notebook will be saved as. Click on the default notebook name (usually `Untitled`) to rename the notebook.
+<p align="center"><img src="https://github.com/kwaldenphd/python-authoring-environments/blob/main/images/JupyterLab_Menu_Icons.png?raw=true" width="1000"></p>
 
 The menu bar includes drop-down options used to manipulate the notebook functionality. The toolbar icons give you quick access to the most commonly-used features of the notebook environment.
 
 ## Authoring in Jupyter Notebooks
 
-Cell-based authoring
-
-Ways to run code/programs
-
-What's this about cells? Have we entered an alternate College of Science universe? Code cells are the default type of cell. But why are there cells? Jupyter notebooks consist of a sequence of cells.
+Once you've created a new Jupyter Notebook, we can start adding cells. What's this about cells? Have we entered an alternate College of Science universe? Code cells are the default type of cell. But why are there cells? Jupyter notebooks consist of a sequence of cells.
 
 A **cell** is a multiline text input field. You can execute the contents of a cell by using `Shift-Enter`, clicking the `Play` button in the toolbar, or the `Cell` and `Run` icons in the menu bar. How a cell executes is determined by its type.
 
@@ -443,13 +423,9 @@ You can edit or work within a code cell until you get the desired output, then m
 
 To learn more about formatting text in markdown, visit Adam Pritchard's ["Markdown Cheatsheet"](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) resource page.
 
-There are a few ways you can change a cell's type.
+<p align="center"><img src="https://github.com/kwaldenphd/python-authoring-environments/blob/main/images/JupyterLab_Menu_Icons.png?raw=true" width="500"></p>
 
-<p align="center"><a href="https://github.com/kwaldenphd/python-jupyter-notebooks/blob/main/images/fig6.jpg?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/python-jupyter-notebooks/blob/main/images/fig6.jpg?raw=true" /></a></p>
-
-One option is to select the cell type from the drop-down options.
-
-<p align="center"><a href="https://github.com/kwaldenphd/python-jupyter-notebooks/blob/main/images/fig7.jpg?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/python-jupyter-notebooks/blob/main/images/fig7.jpg?raw=true" /></a></p>
+There are a few ways you can change a cell's type. One option is to select the cell type from the drop-down options.
 
 Another option is to select `Cell Type` from the `Cell` menu tab. You'll also notice there are keyboard shortcuts for changing cell type.
 - `y` (code)
@@ -509,11 +485,9 @@ BUT...these install commands are not something we should run within our Python p
 
 Resist this temptation! We want to make sure the library is installed correctly in our Python environment, so we need to run the install command in a terminal/shell.
 
-SCREENSHOTS
+<p align="center"><img src="https://github.com/kwaldenphd/python-authoring-environments/blob/main/images/JupyterLab_Launcher.png?raw=true" width="1000"></p>
 
-INSTRUCTIONS FOR SHELL/TERMINAL
-
-Then, within the terminal, we can run the install command.
+Within the terminal, we can run the install command.
 - `pip` will work, but when possible `conda` is best
 
 If you absolutely must install a package from within a notebook, we can use the `sys` module to install the package from within the notebook.
@@ -590,7 +564,7 @@ import matplotlib.pyplot as plt
 
 ### Export Options
 
-Export options
+<p align="center"><img src="https://github.com/kwaldenphd/python-authoring-environments/blob/main/images/JupyterLab_File_Dropdown.png?raw=true" width="500"></p>
 
 You can download a Jupyter notebook as a `.ipynb` file (this is the default option). You can also use the `File` - `Download as` menu options to download the notebook in a number of other formats, including `.py`, `.pdf`, or `.html`.
 - NOTE: The PDF export options require additional configuration.
@@ -604,11 +578,9 @@ python -m pip install -U notebook-as-pdf
 pyppeteer-install
 ```
 
-Once both installation processes have completed, you can close the terminal. You will need to restart the Python Kernel for the new export options to be available.
+<p align="center"><img src="https://github.com/kwaldenphd/python-authoring-environments/blob/main/images/JupyterLab_Kernel_Dropdown.png?raw=true" width="1000"></p>
 
-RESTART THE KERNEL
-
-If needed, re-run any code cells.
+Once both installation processes have completed, you can close the terminal. You will need to restart the Python Kernel for the new export options to be available. If needed, re-run any code cells.
 
 <blockquote>To learn more about configuring Jupyter Notebooks to download notebooks as PDFs:
  <ul>
@@ -624,7 +596,27 @@ Q14: Describe and compare your experience working in different Python IDEs. What
 
 # How to Submit This Lab (and show your work)
 
+Moving forward, we're going to be submitting lab notebooks using the provide Jupyter Notebook template ([link for this lab's template](https://colab.research.google.com/drive/13XsSSsqt3AmjLYKjdTn0pvQ1406anah3?usp=sharing)).
+- If working in JupyterLab (or another desktop IDE), download the `.ipynb` file to your local computer
+  * `File` - `Download` - `Download as .ipynb`
+- If working in Google Colaboratory, MAKE SURE you save a copy to your local drive. Otherwise your changes will not be saved.
+  * `File` - `Save a copy in Drive`
+
+The lab notebook template includes all of the questions as well as pre-created markdown cells for narrative text answers and pre-created code cells for any programs you may need to create. 
+- Double click on these cells to edit and add your own content
+- If questions do not require a code component, you can ignore those cells
+- If questions to not require a narrative component, you can ignore those cells
+
+If working in JupyterLab or another desktop IDE, upload the lab notebook template `.ipynb` file to Canvas as your lab submission.
+- NOTE: This lab also asks you to upload a PDF version of this notebook. You are welcome, but not required, to do that moving forward.
+
+If working in Google Colaboratory, submit the link to your notebook (checking sharing permissions, similar with Google Docs) AS WELL AS the `.ipyb` file
+
 # Lab Notebook Questions
+
+[Click here](https://colab.research.google.com/drive/13XsSSsqt3AmjLYKjdTn0pvQ1406anah3?usp=sharing) to access the lab notebook template as a Jupyter Notebook (Google CoLab, ND Users).
+
+To download the notebok from Google Colaboratory (as a `.ipynb` file): `File` (top-left corner) -> `Download` -> `Download as .ipynb`. Once you have downloaded the file on your local computer, you can move it into a designated folder for this lab/class.
 
 Q1: Work through the <a href="https://docs.spyder-ide.org/current/videos/first-steps-with-spyder.html">"First Steps with Spyder"</a>resources provided in the Spyder documentation. That includes two 3.5 minute videos that introduce you to the basics of the Spyder IDE and how to get started with Python in Spyder. Describe your experience getting  started with Spyder using  these materials/resources.
 
