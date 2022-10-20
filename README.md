@@ -404,7 +404,7 @@ A Jupyter notebook is a file (the notebook document) that displays or renders in
 
 It may take some time for the notebook to open in a browser window. The notebook name is what the `.ipynb` file created via the Jupyter notebook will be saved as. Click on the default notebook name (usually `Untitled`) to rename the notebook.
 
-<p align="center"><img src="https://github.com/kwaldenphd/python-authoring-environments/blob/main/images/JupyterLab_Menu_Icons.png?raw=true" width="1000"></p>
+<p align="center"><img src="https://github.com/kwaldenphd/python-authoring-environments/blob/main/images/JupyterLab_Menu_Icons.png?raw=true" width="500"></p>
 
 The menu bar includes drop-down options used to manipulate the notebook functionality. The toolbar icons give you quick access to the most commonly-used features of the notebook environment.
 
@@ -578,7 +578,7 @@ python -m pip install -U notebook-as-pdf
 pyppeteer-install
 ```
 
-<p align="center"><img src="https://github.com/kwaldenphd/python-authoring-environments/blob/main/images/JupyterLab_Kernel_Dropdown.png?raw=true" width="1000"></p>
+<p align="center"><img src="https://github.com/kwaldenphd/python-authoring-environments/blob/main/images/JupyterLab_Kernel_Dropdown.png?raw=true" width="500"></p>
 
 Once both installation processes have completed, you can close the terminal. You will need to restart the Python Kernel for the new export options to be available. If needed, re-run any code cells.
 
