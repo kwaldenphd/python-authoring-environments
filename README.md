@@ -510,7 +510,7 @@ For more on installing Python packages in the Jupyter notebook environment:
 
 If you have already installed a package at the command line using `pip` or `conda`, launching Jupyter from the Anaconda navigator should not require installing the package again.
 
-<blockquote>Q11: Use the Anaconda or JupyterLab terminal to install the four libraries mentioned in step 55 (numpy, scikit-learn, pandas, matplotlib). Describe your experience installing these libraries using the available/provided documentation. What did you expect to happen? What challenges did you face? How did you solve them?</blockquote>
+<blockquote>Q11: Use the Anaconda or JupyterLab terminal to install the four libraries mentioned in this section of the lab (numpy, scikit-learn, pandas, matplotlib). Describe your experience installing these libraries using the available/provided documentation. What did you expect to happen? What challenges did you face? How did you solve them?</blockquote>
 
 You can load the module/library/package in your Python program using `import`.
 
@@ -655,12 +655,11 @@ Q10: In a code cell, write a simple Python program (or programs) that includes t
 
 You are welcome to use a program (or programs) you've written for previous labs- original code is not required for this question. The main point for this question is to see how a Jupyter Notebook code cell executes a program.
 
-Q11: Use the Anaconda or JupyterLab terminal to install the four libraries mentioned in step 55 (numpy, scikit-learn, pandas, matplotlib). Describe your experience installing these libraries using the available/provided documentation. What did you expect to happen? What challenges did you face? How did you solve them?
+Q11: Use the Anaconda or JupyterLab terminal to install the four libraries mentioned in this section of the lab (numpy, scikit-learn, pandas, matplotlib). Describe your experience installing these libraries using the available/provided documentation. What did you expect to happen? What challenges did you face? How did you solve them?
 
-Q12: Write import statements for each of the libraries you installed in Q10. What did you expect to happen? What challenges did you face (if any)?
+Q12: Write import statements for each of the libraries you installed in Q11. What did you expect to happen? What challenges did you face (if any)?
 
 Q13: After working through the previous steps, export your notebook for this lab as a PDF. Submit both the Jupyter Notebook (.ipynb) and PDF file on Canvas.
 - NOTE: If working in Google Colaboratory, also submit a link/URL to your notebook as a comment or additional submission. Be sure to update sharing permissions (`Share`, top-right hand corner)
 
 Q14: Describe and compare your experience working in different Python IDEs. What seems appealing about each? What seems challenging? Based on this experience, what are some of your preferences, or are there situations in which you'd prefer a specific IDE (or Python authoring environment)
-
