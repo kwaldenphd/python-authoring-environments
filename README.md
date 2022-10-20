@@ -401,7 +401,7 @@ Anaconda is a hefty software program that may not run (or run well) on your pers
 
 If Jupyter Notebooks through Anaconda is not a good fit, Google CoLab is a robust alternative.
 
-["Google CoLab Instructions"](https://github.com/kwaldenphd/python-jupyter-notebooks/blob/main/google-colab-instructions.md), developed by Spring and Fall 2021 graduate teaching assistant [Subhadyuti Sahoo](https://github.com/SDSAHOO703).
+["Google CoLab Instructions"](https://github.com/kwaldenphd/python-authoring-environments/blob/main/google-colab-instructions.md), developed by Spring and Fall 2021 graduate teaching assistant [Subhadyuti Sahoo](https://github.com/SDSAHOO703).
 
 See also:
 - ["Welcome to Colaboratory"](https://colab.research.google.com/notebooks/intro.ipynb) notebook from Google CoLab
