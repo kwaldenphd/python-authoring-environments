@@ -86,13 +86,6 @@ To download the notebok from Google Colaboratory (as a `.ipynb` file): `File` (t
 
 # Overview
 
-<table>
- <tr><td>
-<img src="https://elearn.southampton.ac.uk/wp-content/blogs.dir/sites/64/2021/04/PanPan.png" alt="Panopto logo" width="50"/></td>
-  <td><a href="https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=a711a5e3-ea68-47fc-ba09-add90122ee77">Getting Started</a></td>
-  </tr>
-  </table>
-
 Up to this point, we have used the browser-based IDE [Replit](https://repl.it/).
 
 What is an IDE? "An integrated development environment (IDE) is a software application that provides comprehensive facilities to computer programmers for software development. An IDE normally consists of at least a source code editor, build automation tools and a debugger" ([Wikipedia](https://en.wikipedia.org/wiki/Integrated_development_environment)).
