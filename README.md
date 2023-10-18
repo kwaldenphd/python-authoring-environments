@@ -4,11 +4,7 @@
 
 ## Lab Goals & Objectives
 
-This lab introduces students to the Anaconda environment manager, with a focus on Python IDEs Spyder and JupyterLab. Through this lab, students will:
-- Install Anaconda in their local environment
-- Explore the Spyder IDE, including step-wise debugging and the `log` module
-- Explore the Jupyter Lab IDE, with a focus on the notebook authoring environment
-- Compare and contrast Python IDEs
+This lab provides an introduction the additional funtionality of console-based Python IDEs (Spyder) and notebook-based IDEs (Jupyter Lab). 
 
 <table>
  <tr><td>
@@ -82,7 +78,9 @@ Once you are able to launch the Anaconda Navigator, click on the icons for the f
 
 [Click here](https://colab.research.google.com/drive/13XsSSsqt3AmjLYKjdTn0pvQ1406anah3?usp=sharing) to access the lab notebook template as a Jupyter Notebook (Google CoLab, ND Users).
 
-To download the notebok from Google Colaboratory (as a `.ipynb` file): `File` (top-left corner) -> `Download` -> `Download as .ipynb`. Once you have downloaded the file on your local computer, you can move it into a designated folder for this lab/class.
+To download the notebok from Google Colaboratory (as a `.ipynb` file): 
+- `File` (top-left corner) -> `Download` -> `Download as .ipynb`
+- Once you have downloaded the file on your local computer, you can move it into a designated folder for this lab/class.
 
 # Overview
 
@@ -96,7 +94,7 @@ Some common IDEs include Eclipse, Geany, Brackets, Atom, PyCharm, Spyder, RStudi
 
 Replit (generally) worked for (most of) our needs. But it ran into problems with more complex programs or programs involving external files/datasets/etc. Now, we're going to install Python on your local computer, using a distribution called Anaconda.
 
-What is Anaconda? "Anaconda is a open-source distribution of the Python and R programming languages for scientific computing (data science, machine learning applications, large-scale data processing, predictive analytics, etc.), that aims to simplify package management and deployment. The distribution includes data-science packages suitable for Windows, Linux, and macOS. It is developed and maintained by Anaconda, Inc., which was founded by Peter Wang and Travis Oliphant in 2012" ([Wikipedia](https://en.wikipedia.org/wiki/Anaconda_(Python_distribution))).
+<blockquote>"Anaconda is a open-source distribution of the Python and R programming languages for scientific computing (data science, machine learning applications, large-scale data processing, predictive analytics, etc.), that aims to simplify package management and deployment. The distribution includes data-science packages suitable for Windows, Linux, and macOS. It is developed and maintained by Anaconda, Inc., which was founded by Peter Wang and Travis Oliphant in 2012." (<a href="https://en.wikipedia.org/wiki/Anaconda_(Python_distribution)">Wikipedia</a>)</blockquote>
 
 The Anaconda environment includes a number of specific tools and programs, including:
 - JupyterLab
@@ -171,7 +169,7 @@ The top-right pane has four default options:
 
 The bottom-right pane is the Console, which lets you execute and test Python commands. You can have multiple consoles open simultaneously. So how is the Console different from your `.py` file?
 
-In the `.py` file you are writing a Python program that will run or execute when the file is called. You make updates to that file, save changes, etc. The Console lets you execute Python commands but is not saving those commands as part of a `.py` file. Great for testing. Less great for building out complex programs.
+In the `.py` file you are writing a Python program that will run or execute when the file is called. You can make updates to that file, save changes, etc. The Console lets you execute Python commands but is not saving those commands as part of a `.py` file. Great for testing. Less great for building out complex programs.
 
 When we were working in Replit, all files that were part of our Python project were in the same virtual workspace. That's not going to be the case when working in a desktop IDE like Spyder. Think of this as the difference between working with files in Google Drive versus on your local computer. 
 
@@ -189,7 +187,7 @@ Go ahead and create an `EoC` folder and set that folder as your working director
 
 <blockquote>Q2: How is Spyder different than previous IDEs? What do you see as strengths/advantages? What do you see as possible challenges?</blockquote>
 
-<blockquote>Q3: Take a <code>.py</code> file from a previous lab and load it into Spyder. Explore how the program runs in a different IDE. In particular, explore Spyder's options to run portions or a selection of the larger program. How does this change the way you interact with the program?</blockquote>
+<blockquote>Q3: Take a program (<code>.py</code> file) from a previous lab or collaborative problem solving session and load it into Spyder. Explore how the program runs in a different IDE. In particular, explore Spyder's options to run portions or a selection of the larger program. How does this change the way you interact with the program?</blockquote>
 
 ## Debugging
 
@@ -235,14 +233,14 @@ Let's use this approach and Spyder functionality to debug a function program we 
 # function definition
 def printNTimes(message, x):
  for x in range(x):
-  print(message)
+  return message
 
 # get inputs
 phrase = input("Enter your message here: ") # input statement for string
 times = int(input("How many times do you want this statement to print? Enter a number value.")) # input statement for number of times
 
 # function call
-printNTimes(message, x)
+print(printNTimes(message, x))
 ```
 
 First run the program without the debugger enabled. What happens? Debug the file going line-by-line. Remember to use `Step Over` to execute functions without going into each line of the function code.
@@ -251,57 +249,7 @@ First run the program without the debugger enabled. What happens? Debug the file
 
 <blockquote>Q4: What type of error does this program return (syntax, runtime, semantic) and why? How would we go about modifying the program to address this error?</blockquote>
 
-### Other approaches to debugging
-
-If you've never put a `print()` statement in your code to output a variable's value while the program is running, you have used a form of `logging` to debug your code. Python's `logging` module lets you record custom messages that output as part of your program. These `log` messages describe when the program reaches a point where a logging function is called and what variables have been specified at that point.
-
-Step one is to import the `logging` module and set up basic configuration for the module at the top of your `.py` file.
-```Python
-import logging
-logging.basicConfig(level=logging.DEBUG, format=' %(asctime)s - %(levelname)s - %(message)s')
-```
-
-This configuration information instructs Python to create a `LogRecord` object when a logging function is called, and to include specific information about that event in the `LogRecord` object.
-
-So how would we use the `logging` module when writing a program? Say we were creating a function that calcualted the factorial of a given number.
-- Factorial 4 is 1 x 2 x 3 x 4 = 24
-- Factorial 7 is 1 x 2 x 3 x 4 x 5 x 6 x 7 = 5040
-
-```Python
-import logging
-logging.basicConfig(level=logging.DEBUG, format=' %(asctime)s - %(levelname)s - %(message)s')
-logging.debug('Start of program')
-
-def factorial(n):
-  logging.debug('Start of factorial(%s%%)' % (n))
-  total = 1
-  for i in range(n + 1):
-    total *= i
-    logging.debug('i is ' + str(i) + ', total is ' + str(total))
-  logging.debug('End of factorial(%s%%)' % (n))
-  return total
-
-print(factorial(5))
-logging.debug('End of program')
-```
-
-Anytime we call the `logging.debug()` function, the configuration information from the start of the file governs the log formatting and messages.
-
-<blockquote>Q5: What happens when we run this program? What kinds of log messages do we get, and what information do they give us?</blockquote>
-
-<blockquote>Q6: Is this program doing what we expect? Where would you go next with debugging or addressing the error?</blockquote>
-
-### But why can't I debug using `print()`
-
-It can seem unwieldy to configure the `logging` module and write lines of code dedicated just to logging what's happening in your program. But think about the factorial example. Log messages led us right to the program's issue. Trying to debug using `print()` calls means you'll have to go back through each line of your program to remove `print()` statements used for debugging (while also making sure you aren't removing `print()` statements that are a component of the actual program).
-
-Think of the `logging` module as a report that generates alongside your program output as it executes. The program executes and you also have useful log information about what happened along the way. Once you're done debugging the program, you can add the `logging.disable()` function to the start of your program to supress the log messages without actually having to modify your program.
-
-<blockquote>Visit Python's <a href="https://docs.python.org/3/howto/logging.html">Logging HOWTO</a> documentation to learn more about the logging module.</blockquote>
-
-<blockquote>Q7: What are your thoughts on this approach to identifying what's happening in your program? What seems appealing? What seems challenging? When or how could this approach be useful?</blockquote>
-
-<blockquote>Q8: Compare your experience working in Spyder to your experience working in Replit (or another Python IDE). What seems appealing about each? What seems challenging? Based on this experience, what is your preference, or are there situations in which you'd prefer one over the other?</blockquote>
+<blockquote>Q5: Compare your experience working in Spyder to your experience working in Replit (or another Python IDE). What seems appealing about each? What seems challenging? Based on this experience, what is your preference, or are there situations in which you'd prefer one over the other?</blockquote>
 
 # Python & Jupyter Notebooks
 
